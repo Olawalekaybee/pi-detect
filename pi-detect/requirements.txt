@@ -1,0 +1,8 @@
+# Pi-Detect — laptop / development dependencies
+# Install with: pip install -r requirements.txt
+
+flask>=3.0,<4.0
+opencv-python>=4.9
+ultralytics>=8.2       # YOLOv8
+python-dotenv>=1.0
+numpy>=1.26

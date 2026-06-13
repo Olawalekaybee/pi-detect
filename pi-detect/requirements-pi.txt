@@ -1,0 +1,10 @@
+# Pi-Detect — Raspberry Pi dependencies
+# Install with: pip install -r requirements-pi.txt --break-system-packages
+# NOTE: picamera2 is installed separately via apt (see scripts/install_pi.sh)
+
+flask>=3.0,<4.0
+opencv-python-headless>=4.9    # headless = no GUI deps (saves RAM on Pi)
+ultralytics>=8.2
+python-dotenv>=1.0
+numpy>=1.26
+pyngrok>=7.0                   # 4G tunnel via ngrok

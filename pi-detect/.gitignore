@@ -1,0 +1,54 @@
+# ─── Pi-Detect .gitignore ────────────────────────────────────────
+
+# Environment & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+pip-wheel-metadata/
+
+# Model weights (large binary files — download at runtime)
+models/*.pt
+models/*.onnx
+models/*.tflite
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Snapshots / captured images
+snapshots/
+*.jpg
+*.jpeg
+*.png
+!static/**/*.png
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.tmp
+*.swp
